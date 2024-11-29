@@ -1,0 +1,105 @@
+/*styling for the body*/
+body{
+  background-image: url("images (40).jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+ nav h1{
+   color:white;
+   font-size:50px;
+   font-style: italic;
+ }
+
+nav p{
+  font-size: 20px;
+  color:white;
+  font-family: fantasy;
+}
+ nav h4{
+   color:white;
+ }
+
+.frigates-button{
+ background-color: #1a201e;
+   color: white;
+   border:none;
+   height: 30px;
+   width:100px;
+   border-radius: 10px;
+  cursor:pointer;
+  margin-right: 11px;
+  font-weight: bold;
+}
+
+.corvette-button{
+ background-color: #1a201e;
+   color: white;
+   border:none;
+   height: 30px;
+   width:100px;
+   border-radius: 10px;
+  cursor:pointer;
+  margin-right: 11px;
+  font-weight: bold;
+}
+.destroyers-button{
+ background-color: #1a201e;
+   color: white;
+   border:none;
+   height: 30px;
+   width:100px;
+   border-radius: 10px;
+  cursor:pointer;
+  margin-right: 11px;
+  font-weight: bold;
+}
+.cruisers-button{
+ background-color: #1a201e;
+   color: white;
+   border:none;
+   height: 30px;
+   width:100px;
+   border-radius: 10px;
+  cursor:pointer;
+  margin-right: 11px;
+  font-weight: bold;
+}
+.submarines-button{
+ background-color: #1a201e;
+   color: white;
+   border:none;
+   height: 30px;
+   width:100px;
+   border-radius: 10px;
+  cursor:pointer;
+  margin-right: 11px;
+  font-weight: bold;
+}
+.warfareships-button{
+ background-color: #1a201e;
+   color: white;
+   border:none;
+   height: 30px;
+   width:100px;
+   border-radius: 10px;
+  cursor:pointer;
+  margin-right: 11px;
+  font-weight: bold;
+}
+.carriers-button{
+ padding: 1.5rem 3.5rem;
+   border:none;
+   color: green;
+   background: black;
+   cursor: pointer;
+   border-radius: 20px;
+   font-size: 15px;
+   font-weight: bold;
+}
+ button:hover{
+   background-color: white;
+   color:#1a201e;
+ }
+ 

@@ -1,0 +1,67 @@
+/*styling for the body*/
+body{
+  background-image: url("images (37).jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+nav{
+  height: 80px;
+  background: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem calc((100vw - 1300px) /2);
+  color: white;
+}
+.logo{
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0 2rem;
+}
+nav a{
+  text-decoration: none;
+  color: white;
+  padding: 0 0.5rem;
+}
+nav a:hover{
+  color:black;
+}
+.hero{
+  background-color: none;
+}
+.hero-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 95vh;
+  padding: 3rem calc((100vw - 1300px) /2);
+}
+.column-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color:white;
+  padding: 0rem 2rem;
+}
+ .column-left h1{
+   margin-bottom: 1rem;
+   font-size: 2.5rem;
+ }
+  button{
+   padding: 1.5rem 3.5rem;
+   border:none;
+   color: white;
+   background: black;
+   cursor: pointer;
+   border-radius: 20px;
+   font-size: 15px;
+   font-weight: bold;
+  }
+  button:hover{
+    background: white;
+   color:black;
+  }
